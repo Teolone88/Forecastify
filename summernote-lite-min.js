@@ -1,4 +1,4 @@
-/*! For license information please see summernote-lite.min.js.LICENSE.txt */ ! function(t, e) {
+/*! For license information please see summernote-lite.min.js.LICENSE.txt */ !  function(t, e) {
     if ("object" == typeof exports && "object" == typeof module) module.exports = e(require("jquery"));
     else if ("function" == typeof define && define.amd) define(["jquery"], e);
     else {
