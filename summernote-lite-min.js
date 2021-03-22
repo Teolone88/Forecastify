@@ -5082,15 +5082,7 @@
                         onKeyup: null,
                         onMousedown: null,
                         onMouseup: null,
-                        onPaste: function (e) {
-                          var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
-                          
-                          e.preventDefault();
-                          
-                          setTimeout( function(){
-                            document.execCommand( 'insertText', false, bufferText );
-                          }, 10 );
-                        },
+                        onPaste: null,
                         onScroll: null
                       },
                       codemirror: {
